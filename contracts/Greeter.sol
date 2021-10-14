@@ -7,7 +7,7 @@ contract Greeter {
     string private greeting;
 
     constructor(string memory _greetings) {
-        console.log("Deploying a Greeter with greeting:", _greeting);
+        console.log("Deploying a Greeter with greeting:", _greetings);
         greeting = _greetings;
     }
 
